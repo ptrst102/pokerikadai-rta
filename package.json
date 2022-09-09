@@ -1,12 +1,10 @@
 {
   "name": "pokerikadai-rta",
   "version": "0.0.0",
-  "description": "",
-  "homepage": "",
+  "description": "pokerikadai RTA部用のNodeCGバンドル",
   "author": {
     "name": "ptrst102",
-    "email": "ptrst102@gmail.com",
-    "url": ""
+    "email": "ptrst102@gmail.com"
   },
   "files": [
     "dashboard",
@@ -15,18 +13,17 @@
     "extension"
   ],
   "keywords": [
-    "",
     "nodecg-bundle"
   ],
   "nodecg": {
     "compatibleRange": "^1.1.1",
     "dashboardPanels": [
       {
-        "name": "panel",
-        "title": "Panel",
-        "width": 2,
-        "file": "panel.html",
-        "headerColor": "#525F78"
+        "name": "dashboard",
+        "title": "RTA部ダッシュボード",
+        "file": "index.html",
+        "headerColor": "#00BEBE",
+        "fullbleed": true
       }
     ],
     "graphics": [
