@@ -15,20 +15,26 @@
   "keywords": [
     "nodecg-bundle"
   ],
+  "scripts": {
+    "install": "cd dashboard && yarn install && cd ../graphics && yarn install",
+    "install:ci": "cd dashboard && yarn install --immutable --immutable-cache --check-cache && cd ../graphics && yarn install --immutable --immutable-cache --check-cache",
+    "nodecg:start": "cd ../../ && nodecg start",
+    "build": "cd dashboard && yarn build && cd ../graphics && yarn build"
+  },
   "nodecg": {
     "compatibleRange": "^1.1.1",
     "dashboardPanels": [
       {
         "name": "dashboard",
         "title": "RTA部ダッシュボード",
-        "file": "index.html",
+        "file": "dist/index.html",
         "headerColor": "#00BEBE",
         "fullbleed": true
       }
     ],
     "graphics": [
       {
-        "file": "index.html",
+        "file": "dist/index.html",
         "width": 1920,
         "height": 1080
       }
