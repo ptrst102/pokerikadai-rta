@@ -14,3 +14,5 @@ plugins:
   - react
 rules: {}
 root: true
+ignorePatterns:
+  - vite.config.ts
