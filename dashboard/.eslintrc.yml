@@ -12,7 +12,13 @@ parserOptions:
   project: ./tsconfig.json
 plugins:
   - react
-rules: {}
+  - import
+rules:
+  {
+    'import/order':
+      ['error', { alphabetize: { order: 'asc' }, 'newlines-between': 'always' }]
+  }
+settings: { react: { version: 'detect' } }
 root: true
 ignorePatterns:
   - vite.config.ts
