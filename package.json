@@ -16,11 +16,11 @@
     "nodecg-bundle"
   ],
   "scripts": {
-    "install": "cd dashboard && yarn install && cd ../graphics && yarn install",
-    "install:ci": "cd dashboard && yarn install --immutable --immutable-cache --check-cache && cd ../graphics && yarn install --immutable --immutable-cache --check-cache",
+    "install": "cd dashboard && yarn install && cd ../graphics && yarn install && cd ../extension && yarn install",
+    "install:ci": "cd dashboard && yarn install --immutable --immutable-cache --check-cache && cd ../graphics && yarn install --immutable --immutable-cache --check-cache && cd ../extension && yarn install --immutable --immutable-cache --check-cache",
     "nodecg:start": "cd ../../ && nodecg start",
-    "build": "cd dashboard && yarn build && cd ../graphics && yarn build",
-    "lint": "cd dashboard && yarn lint && cd ../graphics && yarn lint"
+    "build": "cd dashboard && yarn build && cd ../graphics && yarn build && cd ../extension && yarn build",
+    "lint": "cd dashboard && yarn lint && cd ../graphics && yarn lint && cd ../extension && yarn lint"
   },
   "nodecg": {
     "compatibleRange": "^1.1.1",
