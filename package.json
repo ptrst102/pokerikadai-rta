@@ -19,6 +19,7 @@
     "install": "cd dashboard && yarn install && cd ../graphics && yarn install && cd ../extension && yarn install",
     "install:ci": "cd dashboard && yarn install --immutable --immutable-cache --check-cache && cd ../graphics && yarn install --immutable --immutable-cache --check-cache && cd ../extension && yarn install --immutable --immutable-cache --check-cache",
     "nodecg:start": "cd ../../ && nodecg start",
+    "nodecg:schema-types": "nodecg schema-types -o nodecg/generated",
     "build": "cd dashboard && yarn build && cd ../graphics && yarn build && cd ../extension && yarn build",
     "lint": "cd dashboard && yarn lint && cd ../graphics && yarn lint && cd ../extension && yarn lint"
   },
