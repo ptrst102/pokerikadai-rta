@@ -1,4 +1,4 @@
-import { NodeCG } from '@nodecg';
+import { NodeCG } from './nodecg';
 
 export default (nodecg: NodeCG): void => {
   nodecg.log.info("Hello, from your bundle's extension!");

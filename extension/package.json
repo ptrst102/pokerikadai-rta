@@ -13,6 +13,7 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "prettier": "^2.7.1",
+    "ts-nodecg": "^0.3.1",
     "tsc-alias": "^1.7.0",
     "typescript": "*"
   },
