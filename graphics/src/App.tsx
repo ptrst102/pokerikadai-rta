@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const App: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const App: React.FC = () => {
         controls.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
