@@ -26,6 +26,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.31.8",
     "prettier": "^2.7.1",
+    "ts-nodecg": "^0.3.1",
     "typescript": "*",
     "vite": "^3.1.0"
   }
